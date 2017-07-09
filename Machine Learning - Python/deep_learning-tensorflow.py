@@ -49,7 +49,7 @@ sess = tf.InteractiveSession()
 tf.initialize_all_variables().run() # initialize all the variables created above   (newer versions use: tf.global_variables_initializer().run())
 
 # do the actual training: feed the model 100 of training set's images & labels, do it 1000 times
-for _ in range(5000):
+for _ in range(1000):
     batch_images, batch_labels = mnist.train.next_batch(100)
     sess.run(train_step, feed_dict={x: batch_images, y_: batch_labels})
 
