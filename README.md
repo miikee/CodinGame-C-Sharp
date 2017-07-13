@@ -1,6 +1,4 @@
 # CodinGame-C-Sharp
-Codingame challenges/puzzles done in C#
+Codingame.com challenges done in C#
 
-These scripts are written in C# to solve the puzzles presented on CodinGame.com. 
-
-Description and rules of each puzzle are kept in .docx/.txt files with same name as the .c files.
+Description and rules of each challenge are kept in the .docx/.txt files with same name as the .cs files.
